@@ -3,7 +3,7 @@
  * prcout - using printf finally
  * Return: 1 " Success "
  */
-int prcout(int)
+int prcout()
 	{
 	printf("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
 	return (1);
