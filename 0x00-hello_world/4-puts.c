@@ -1,10 +1,8 @@
 #include <stdio.h>
 /**
-*main function - puts first shot
-*
-*used to output chars in the main function
-*return value of main function  
-*function main is the main function -_-
+	*main function - puts first shot
+	* describe your function
+	* Return: The sum of the two parameters
 */
 int main(void)
 	{
