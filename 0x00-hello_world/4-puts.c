@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
 	*main function - puts first shot
-	* Description of main function : This is
-	* Don't forget that a line should no
+	* Description: longer for main function)
+	* puts is useless : puts description useless)
 	* Return: The sum of the two parameters
 */
 int main(void)
