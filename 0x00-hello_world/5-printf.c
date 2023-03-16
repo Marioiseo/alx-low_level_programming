@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*main - print letters with printf 
+*main - print letters with printf
 *Return: 0 ( success )
 */
 int main(void)
