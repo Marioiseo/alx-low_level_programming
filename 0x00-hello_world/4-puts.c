@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- * this is main function
+ * main function - puts first shot
+ * used to output chars
+ * return value = 0
  */
 int main(void)
 	{
