@@ -3,9 +3,9 @@
  * prcout - using printf finally
  * Return: 1 " Success "
  */
-int prcout()
+int prcout(void)
 	{
-	printf("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
+	printf("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 	return (1);
 	}
 /**
@@ -14,6 +14,6 @@ int prcout()
  */
 int main(void)
 	{
-	prcout();
+	prcout(void);
 	return (0);
 	}
