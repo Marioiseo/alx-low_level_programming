@@ -1,9 +1,7 @@
 #include <stdio.h>
 /**
-	*main function - puts first shot
-	* Description: longer for main function)
-	* puts is useless : puts description useless)
-	* Return: The sum of the two parameters
+	*main function - a program that prints a line with puts function
+	* Return: 0 (success)
 */
 int main(void)
 	{
