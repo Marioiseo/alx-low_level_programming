@@ -1,2 +1,6 @@
-#!/bin/bash
-output << " \"Programming is like building a multilingual puzzle. \n "
+#include <iostream>
+
+int main ()
+	{
+	output << " \"Programming is like building a multilingual puzzle. \n ";
+	}
