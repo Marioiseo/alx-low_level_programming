@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int main(void)
+int main(void) /* useless comments */
 	{
-	char myoput[] = " \"Programming is like building a multilingual puzzle"; /*another comment*/
+	char myoput[] = "\"Programming is like building a multilingual puzzle";
 
 	puts(myoput); /*comment*/
 
