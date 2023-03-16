@@ -2,7 +2,8 @@
 /**
  * main function - puts first shot
  * used to output chars in the main function
- * return value of main function  = 0
+ * return value of main function  
+ * function main is the main function -_-
  */
 int main(void)
 	{
