@@ -20,7 +20,7 @@ int main(void)
 	if (b == 9)
 	{
 	a++;
-	b = 0;
+	b = (a + 1);
 	}
 	putchar(a + '0');
 	putchar(b + '0');
