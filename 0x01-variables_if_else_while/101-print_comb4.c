@@ -26,9 +26,13 @@ int main(void)
 	putchar(' ');
 	if (c == 9)
 	{
-	a++;
 	b++;
 	c = (b);
+	}
+	if (b == 9)
+	{
+	a++;
+	b = (a);
 	}
 	}
 	putchar('\n');
