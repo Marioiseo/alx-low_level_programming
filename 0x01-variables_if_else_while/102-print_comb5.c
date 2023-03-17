@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  * main - Myth !!
- * Return: 0 ZEROO Success 
+ * Return: 0 ZEROO Success
 */
 int main(void)
 	{
@@ -26,5 +26,6 @@ int main(void)
 	putchar(' ');
 	}
 	}
+	putchar('\n');
 	return (0);
 	}
