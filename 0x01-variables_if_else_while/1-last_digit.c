@@ -20,7 +20,7 @@ int main(void)
 	printf("Last digit of %i is %u and is 0\n", n, x);
 	}
 	else if (x > 5)
-	{	
+	{
 	printf("Last digit of %i is %u and is greater than 5\n", n, x);
 	}
 	else  if (x > 0 || x < 6)
