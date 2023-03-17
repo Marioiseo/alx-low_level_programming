@@ -21,7 +21,10 @@ int main(void)
 	putchar(b + '0');
 	putchar(c + '0');
 	if (b == 8)
+	{
 	b = (a);
+	continue;
+	}
 	if (a == 7)
 	continue;
 	putchar(',');
