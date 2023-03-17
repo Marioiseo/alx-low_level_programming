@@ -17,11 +17,6 @@ int main(void)
 	{
 		continue;
 	}
-	if (b == 9)
-	{
-	a++;
-	b = (a + 1);
-	}
 	putchar(a + '0');
 	putchar(b + '0');
 	putchar(c + '0');
@@ -34,6 +29,10 @@ int main(void)
 	b++;
 	c = (b);
 	}
+	if (b == 8)
+	{
+	a++;
+	b = (a + 1);
 	}
 	putchar('\n');
 	return (0);
