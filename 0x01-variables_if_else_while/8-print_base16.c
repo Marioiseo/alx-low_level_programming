@@ -9,7 +9,7 @@ int main(void)
 
 	char k = 'a';
 
-	while ( n <= 9)
+	while (n <= 9)
 	{
 	putchar(n + '0');
 	n++;
