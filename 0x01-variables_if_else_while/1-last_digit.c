@@ -11,10 +11,10 @@ int main(void)
 
 	int x;
 
-	x = ( n % 10 );
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
+	x = (n % 10 );
 	if (x != 0 || x < 6)
 	{
 	printf("Last digit of %i is %u and is less than 6 and not 0\n", n, x);
