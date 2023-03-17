@@ -29,7 +29,7 @@ int main(void)
 	b++;
 	c = (b);
 	}
-	if (b == 8)
+	if (b > 8)
 	{
 	a++;
 	b = (a + 1);
