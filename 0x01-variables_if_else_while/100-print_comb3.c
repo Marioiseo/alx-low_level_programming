@@ -17,15 +17,15 @@ int main(void)
 	{
 	continue;
 	}
+	putchar(a + '0');
+	putchar(b + '0');
+	putchar(',');
+	putchar(' ');
 	if (b == 9)
 	{
 	a++;
 	b = (a + 1);
 	}
-	putchar(a + '0');
-	putchar(b + '0');
-	putchar(',');
-	putchar(' ');
 	}
 	putchar('\n');
 	return (0);
