@@ -4,17 +4,17 @@
  * Return: "0" success
 */
 int main(void)
-        {
-        char c;
+	{
+	char c;
 
-        for (c = 'a'; c <= 'z'; c++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
 	if (c == 'q' || c == 'e')
 	{
 	continue;
 	}
-        putchar(c);
-	putchar('\n');
+	putchar(c);
 	}
-        return (0);
-        }
+	putchar('\n');
+	return (0);
+	}
