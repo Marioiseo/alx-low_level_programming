@@ -7,7 +7,7 @@ int main(void)
         {
         int c;
 
-        for(c = 1 ; c <= 9; c++);
+        for (c = 1 ; c <= 9; c++);
         putchar(48 + c);
 	putchar ('\n');
         return (0);
