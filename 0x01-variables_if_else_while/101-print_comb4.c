@@ -15,8 +15,8 @@ int main(void)
 	{
 	if (a == b || a == c || b == c)
 	{
-		continue;
-	}	
+	continue;
+	}
 	putchar(a + '0');
 	putchar(b + '0');
 	putchar(c + '0');
@@ -25,7 +25,7 @@ int main(void)
 	a++;
 	b = (a);
 	}
-	if (a == 7)
+	if (a > 7)
 	continue;
 	putchar(',');
 	putchar(' ');
