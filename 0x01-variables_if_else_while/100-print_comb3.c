@@ -22,9 +22,9 @@ int main(void)
 	if (a == 8)
 	{
 	continue;
+	}
 	putchar(',');
 	putchar(' ');
-	}
 	if (b == 9)
 	{
 	a++;
