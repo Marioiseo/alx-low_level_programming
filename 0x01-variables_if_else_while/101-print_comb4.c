@@ -33,6 +33,7 @@ int main(void)
 	{
 	a++;
 	b = (a);
+	c = (b);
 	}
 	}
 	putchar('\n');
