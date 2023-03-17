@@ -22,8 +22,8 @@ int main(void)
 	a++;
 	b = 0;
 	}
-	putchar(a);
-	putchar(b);
+	putchar(a + '0');
+	putchar(b + '0');
 	putchar(',');
 	putchar(' ');
 	}
