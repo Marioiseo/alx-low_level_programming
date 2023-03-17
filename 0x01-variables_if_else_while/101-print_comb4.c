@@ -13,6 +13,11 @@ int main(void)
 
 	for (c = 2; c <= 9; c++)
 	{
+	if (b > 8)
+	{
+	a++;
+	b = (a + 1);
+	}
 	if (a == b || a == c || b == c)
 	{
 		continue;
@@ -28,11 +33,6 @@ int main(void)
 	{
 	b++;
 	c = (b);
-	}
-	if (b > 8)
-	{
-	a++;
-	b = (a + 1);
 	}
 	}
 	putchar('\n');
