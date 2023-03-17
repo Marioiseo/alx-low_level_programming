@@ -13,8 +13,6 @@ int main(void)
 
 	for (c = 2; c <= 9; c++)
 	{
-	if (b > 8)
-	b = (a);
 	if (a == b || a == c || b == c)
 	{
 		continue;
@@ -22,6 +20,8 @@ int main(void)
 	putchar(a + '0');
 	putchar(b + '0');
 	putchar(c + '0');
+	if (b == 8)
+	b = (a);
 	if (a == 7)
 	continue;
 	putchar(',');
