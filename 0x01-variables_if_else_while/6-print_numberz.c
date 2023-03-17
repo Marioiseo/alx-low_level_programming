@@ -9,6 +9,6 @@ int main(void)
 
         for(c = 1 ; c <= 9; c++);
         putchar(48 + c);
-	putchar (\n);
+	putchar ('\n');
         return (0);
         }
