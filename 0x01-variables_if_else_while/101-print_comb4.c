@@ -20,11 +20,6 @@ int main(void)
 	putchar(a + '0');
 	putchar(b + '0');
 	putchar(c + '0');
-	if (b == 8)
-	{
-	b = (a);
-	continue;
-	}
 	if (a == 7)
 	continue;
 	putchar(',');
@@ -33,10 +28,10 @@ int main(void)
 	{
 	b++;
 	c = (b);
-	}
-	if (b == 8)
+	if (b == 9)
 	{
-	a++;
+	a++
+	b = (a);
 	}
 	}
 	putchar('\n');
