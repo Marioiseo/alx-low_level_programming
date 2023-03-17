@@ -13,7 +13,7 @@ int main(void)
 
 	for (c = 2; c <= 9; c++)
 	{
-	if (a == b && a == c && b == c )
+	if (a == b || a == c || b == c )
 	{
 		continue;
 	}
