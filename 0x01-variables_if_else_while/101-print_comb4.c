@@ -16,14 +16,14 @@ int main(void)
 	if (a == b || a == c || b == c)
 	{
 		continue;
-	}
-	if (b == 8)
-	{	
+	}	
 	putchar(a + '0');
 	putchar(b + '0');
 	putchar(c + '0');
+	if (b == 8)
+	{
 	a++;
-	b = (a + 1);
+	b = (a);
 	}
 	if (a == 7)
 	continue;
