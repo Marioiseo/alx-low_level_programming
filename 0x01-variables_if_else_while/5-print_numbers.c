@@ -4,11 +4,11 @@
  * Return: "0" success
 */
 int main(void)
-        {
-        int c;
+	{
+	int c;
 
-        for (c = 1; c <= 9; c++)
-        printf("%d", c);
+	for (c = 0; c <= 9; c++)
+	printf("%d", c);
 	printf("\n");
-        return (0);
-        }
+	return (0);
+	}
