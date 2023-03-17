@@ -17,6 +17,7 @@ int main(void)
 	{
 	a++;
 	b = (a + 1);
+	c = (b + 1);
 	}
 	if (a == b || a == c || b == c)
 	{
