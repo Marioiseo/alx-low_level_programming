@@ -13,19 +13,18 @@ int main(void)
 
 	for (c = 2; c <= 9; c++)
 	{
-	if (b > 8)
-	{
-	a++;
-	b = (a + 1);
-	c = (b + 1);
-	}
 	if (a == b || a == c || b == c)
 	{
 		continue;
 	}
+	if (b == 8)
+	{	
 	putchar(a + '0');
 	putchar(b + '0');
 	putchar(c + '0');
+	a++;
+	b = (a + 1);
+	}
 	if (a == 7)
 	continue;
 	putchar(',');
