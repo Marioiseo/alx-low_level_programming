@@ -17,15 +17,11 @@ void print_times_table(int n)
 		{
 	c = (a * b);
 	if (b = n)
-	{
-		printf("%i",c)
-	}
-	else
-	{
+		printf("%i",c);
+	else if (b != n)
 	printf("%i,  ", c);
-		}
-		printf('\n');
 	}
+		printf("\n");
 	}
 	}
 }
