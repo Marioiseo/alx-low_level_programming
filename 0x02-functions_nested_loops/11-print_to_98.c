@@ -29,7 +29,7 @@ void print_to_98(int n)
 	_putchar(' ');
 	}
 	}
-	if (n = 98)
+	else
 	{
 	_putchar(n + '0');
 	_putchar(',');
