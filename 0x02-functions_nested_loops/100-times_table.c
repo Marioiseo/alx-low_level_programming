@@ -7,21 +7,19 @@
 */
 void print_times_table(int n)
 {
-	int a, b, c;
+	int a, b;
 
 	if (n >= 0 && n <= 15)
 	{
 	for (a = 0; a <= n; a++)
 	{
 		for (b = 0; b <= n; b++)
-		{
-	c = (a * b);
 	if ((b = n))
 	{
-	printf("%i",c);
+	printf("%d", a * b);
 	}
 	else if (b < n)
-	printf("%i,  ", c);
+	printf("%i,  ", a * b);
 	}
 		printf("\n");
 	}
