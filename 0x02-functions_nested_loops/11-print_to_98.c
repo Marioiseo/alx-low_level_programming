@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <cs50.h>
 /**
  * print_to_98 - easy to manage hard to code thats why we use psuedocode
  * @n: pass me a numm please ! ^_^
