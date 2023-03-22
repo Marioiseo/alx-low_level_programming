@@ -16,7 +16,7 @@ void print_times_table(int n)
 		for (b = 0; b <= n; b++)
 		{
 	c = (a * b);
-	if (b = n)
+	if ((b = n))
 	{
 	printf("%i",c);
 	}
