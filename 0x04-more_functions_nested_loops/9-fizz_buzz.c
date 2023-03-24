@@ -1,8 +1,7 @@
-#include "main.h"
 #include <stdio.h>
 /**
  * main - i love this task LOL <3
- * Return: maybe void maybe 0
+ * Return: maybe void maybe 0 --cant be void-_-
 */
 int main(void)
 {
@@ -11,12 +10,14 @@ int main(void)
 	for (i = 1; i <= 100; i++)
 	{
 	if ((i % 3) == 0)
-		printf("Fizz");
+		printf("Fizz ");
 	else if ((i % 5) == 0)
-		printf("Buzz");
+		printf("Buzz ");
 	else if (((i % 3) == 0) && ((i % 5) == 0))
-		printf("FizzBuzz");
+		printf("FizzBuzz ");
 	else
-	printf("%i", i);
+	printf("%i ", i);
 	}
+	printf("\n");
+	return (0);
 }
