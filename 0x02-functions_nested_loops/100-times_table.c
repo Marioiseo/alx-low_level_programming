@@ -15,7 +15,7 @@ void print_times_table(int n)
 	{
 	for (b = 0; b <= n; b++)
 	{
-	if ((b == n) || (b == 0))
+	if (b == 0)
 		printf("%i", a * b);
 	else if ((a * b) > 9 && (a * b) < 100)
 	printf(",  %i", a * b);
