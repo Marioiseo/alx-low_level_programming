@@ -15,14 +15,16 @@ void print_times_table(int n)
 	{
 	for (b = 0; b <= n; b++)
 	{
-	if (b < 10)
+	if (b == n)
+		printf("%i", a * b);
+	else if (b < 10)
 	printf("%i,   ", a * b);
 	else if (b >= 10)
 	printf("%i,  ", a * b);
-	else if (b == n)
-		printf("%i", a * b);
 	}
 	printf("\n");
 	}
+	if (a == n)
+		break;
 	}
 }
