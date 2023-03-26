@@ -5,6 +5,8 @@
  */
 void main(void)
 {
+	int i;
+
 	int result = 0;
 
 	for (i = 0; i <= 1024; i++)
