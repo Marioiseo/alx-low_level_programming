@@ -3,7 +3,7 @@
  * main - thats a lovely task to add the result to variable
  * Return: void
  */
-void main(void)
+int main(void)
 {
 	int i;
 
@@ -11,10 +11,11 @@ void main(void)
 
 	for (i = 0; i <= 1024; i++)
 	{
-		if((i % 3) == 0)
+		if ((i % 3) == 0)
 			result += i;
 		else if ((i % 5) == 0)
 			result += i;
 	}
 	printf("%d\n", result);
+	return (0);
 }
