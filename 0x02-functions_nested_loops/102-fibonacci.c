@@ -7,11 +7,11 @@ int main(void)
 {
 	int i;
 
-	int a = 1;
+	long int a = 1;
 
-	int b = 2;
+	long int b = 2;
 
-	int c = a + b;
+	long int c = a + b;
 
 	printf("1, 2, 3, ");
 	for (i = 3; i <= 50; i++)
