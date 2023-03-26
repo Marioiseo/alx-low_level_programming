@@ -19,7 +19,7 @@ int main(void)
 	a = b;
 	b = c;
 	c = a + b;
-	printf("%d, ", c);
+	printf("%ld, ", c);
 	}
 return (0);
 }
