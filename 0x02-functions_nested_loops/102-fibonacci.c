@@ -24,5 +24,6 @@ int main(void)
 	else
 	printf("%ld, ", c);
 	}
+	printf("\n");
 return (0);
 }
