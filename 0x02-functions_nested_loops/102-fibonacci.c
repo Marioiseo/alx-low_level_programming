@@ -14,11 +14,14 @@ int main(void)
 	long int c = a + b;
 
 	printf("1, 2, 3, ");
-	for (i = 3; i <= 50; i++)
+	for (i = 4; i <= 50; i++)
 	{
 	a = b;
 	b = c;
 	c = a + b;
+	if (i == 50)
+		printf("%ld", c);
+	else
 	printf("%ld, ", c);
 	}
 return (0);
