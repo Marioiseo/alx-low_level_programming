@@ -19,7 +19,7 @@ int main(void)
 	a = b;
 	b = c;
 	c = a + b;
-	if (i == 50)
+	if (i == 98)
 		printf("%lu", c);
 	else
 	printf("%lu, ", c);
