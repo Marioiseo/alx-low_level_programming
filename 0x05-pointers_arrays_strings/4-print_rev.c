@@ -11,7 +11,7 @@ char i;*/
 
 	int c;
 	c = sizeof(*s);
-	_putchar(c);
+	_putchar(c + '0');
 	/*a = 2;
 	b = 4;
 	i = '0'; */
