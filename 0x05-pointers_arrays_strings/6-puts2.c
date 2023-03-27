@@ -24,7 +24,7 @@ void puts2(char *str)
 	}
 	if (i > 100)
 	{
-		_putchar(',');
+		_putchar('.');
 	}
 	_putchar('\n');
 }
