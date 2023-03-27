@@ -10,6 +10,9 @@ void print_rev(char *s)
 
 	for (i = '\0';i >= s[0]; i--)
 	{
+		if (i == '\0')
+			continue;
+		else
 	_putchar(i);
 	}
 	_putchar('\n');
