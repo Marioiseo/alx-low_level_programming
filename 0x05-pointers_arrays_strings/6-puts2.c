@@ -8,7 +8,7 @@ void puts2(char *str)
 {
 	int i = 0;
 
-	int a;
+	int a, c;
 
 	int b = 0;
 
@@ -16,9 +16,9 @@ void puts2(char *str)
 	{
 	i++;
 	}
-	for (a = 1; a <= i; a++)
+	c = (i / 2);
+	for (a = 1; a <= c; a++)
 	{
-	if (i != (a + b))
 	_putchar(str[b + a]);
 	b++;
 	}
