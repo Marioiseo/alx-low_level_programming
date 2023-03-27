@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * rev_string - same one without putchar 
- * @s: same same 
+ * rev_string - same one without putchar
+ * @s: same same
  * Return: void again
 */
 void rev_string(char *s)
@@ -14,13 +14,16 @@ void rev_string(char *s)
 
 	int b;
 
+	int middle = 0;
+
 	while (s[c] != '\0')
 	{
 		c++;
 	}
 	for (b = 0; b <= c; b++)
 	{
-		int middle = b / 2;
+		if (b == c)
+		middle = b / 2;
 	}
 	for (c -= 1; c >= middle; c--)
 	{
