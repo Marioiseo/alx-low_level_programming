@@ -22,5 +22,9 @@ void puts2(char *str)
 	b = a;
 	_putchar(str[b + a]);
 	}
+	if (i > 100)
+	{
+		_putchar(',');
+	}
 	_putchar('\n');
 }
