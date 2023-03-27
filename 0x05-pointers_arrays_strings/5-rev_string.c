@@ -27,8 +27,9 @@ void rev_string(char *s)
 	}
 	for (c -= 1; c >= middle; c--)
 	{
-	a = s[c];
-	s[i] = a;
+	a = s[i];
+	s[i] = s[c];
+	s[c] = a;
 	i++;
 	}
 }
