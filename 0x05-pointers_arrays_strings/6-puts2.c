@@ -7,7 +7,7 @@
 void puts2(char *str)
 {
 	int i = 0;
-	
+
 	int a;
 
 	int b = 0;
@@ -18,8 +18,8 @@ void puts2(char *str)
 	}
 	for (a = 1; a <= i; a++)
 	{
-		_putchar(str[b] + a)
-			b++;
+	_putchar(str[b] + a);
+	b++;
 	}
 	_putchar('\n');
-} 
+}
