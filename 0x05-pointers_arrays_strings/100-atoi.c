@@ -21,6 +21,6 @@ int _atoi(char *s)
 	else 
 		break;
 	a++;
-	}
 	return (num * i);
+	}
 }
