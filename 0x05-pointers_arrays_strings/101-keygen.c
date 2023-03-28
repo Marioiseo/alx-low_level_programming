@@ -16,11 +16,11 @@ int main(void)
 	char b[] = "@, #, $, %, ^, &, *, (, ), _, !.";
 
 	srand(time(NULL));
-	for (i = 0; i <= 12; i++)
+	for (i = 0; i <= 6; i++)
 	{
-		printf("%c", nums[rand()] % 10);
-		printf("%c", b[rand()] % 10);
-		printf("%c", c[rand()] % 10);
+	printf("%c", nums[rand()] % 10 + 1);
+	printf("%c", b[rand()] % 10 + 1);
+	printf("%c", c[rand()] % 10 + 1);
 	}
 	return (0);
 }
