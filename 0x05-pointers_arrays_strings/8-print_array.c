@@ -10,8 +10,15 @@ void print_array(int *a, int n)
 {
 	int i;
 
-	for (i = 0; i < n; i++)
+	while (n <= 0)
+		printf("\n");
+
+	for (i = 1; i <= n; i++)
 	{
+		if (i < n)
 		printf("%i, ", a[i]);
+		else
+		printf("%i", a[i]);
 	}
+	printf("\n");
 }
