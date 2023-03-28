@@ -10,11 +10,8 @@ void print_array(int *a, int n)
 {
 	int i;
 
-	while (n <= 0)
-	{
-		printf("\n");
-		break;
-	}
+	if (n >= 0)
+	printf("\n");
 
 	for (i = 0; i < n; i++)
 	{
