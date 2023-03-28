@@ -9,7 +9,7 @@ int main(void)
 {
 	int i;
 
-	char c;
+	char c[] = "a ,b ,c ,d , e, f, g, h, j, k, l, m, n ,q ,w ,z , A , S ,D ,F ,G ,H ,J";
 
 	char nums[] = "1, 2, 3, 4, 5, 6, 7, 8, 9, 0";
 
