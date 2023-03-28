@@ -21,9 +21,5 @@ void puts_half(char *str)
 	{
 		_putchar(str[l]);
 	}
-	if ((f % 2) != 0)
-	{
-		_putchar(str[l + 1]);
-	}
 	_putchar('\n');
 }
