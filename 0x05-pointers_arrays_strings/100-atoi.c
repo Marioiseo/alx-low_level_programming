@@ -17,9 +17,11 @@ int _atoi(char *s)
 	if (s[a] == '-')
 		i = i * -1;
 	else if (s[a] >= '0' && s[a] <= '9')
+	{
 		num = (num * 10) + (s[a] - 48);
+	}
 		a++;
-	else
+	if (s[a] < '0' && > '9')
 		continue;
 	}
 	return (num * i);
