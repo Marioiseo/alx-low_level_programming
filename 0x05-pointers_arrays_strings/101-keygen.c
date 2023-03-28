@@ -9,7 +9,7 @@ int main(void)
 {
 	int i;
 
-	char list[] = "1234567890qwertyuiopasdfghjklzxcvbnm!@#$%^&*()_- +=QWERTYUIOPASDFGHJKLZXCVBNM[]{};':\"<>,.?/\|";
+	char list[] = "1234567890qwertyuiopasdfghjklzxcvbnm!@#$%^&*()_- +=QWERTYUIOPASDFGHJKLZXCVBNM[]{};':<>,.?/";
 
 	srand(time(NULL));
 	for (i = 0; i <= 15; i++)
