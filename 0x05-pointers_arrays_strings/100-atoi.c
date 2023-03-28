@@ -24,7 +24,7 @@ int _atoi(char *s)
 		if (s[a] == '+')
 			continue;
 		else if (s[a] < '0' && s[a] > '9')
-		break;
+		return (num * i);
 	}
 	return (num * i);
 }
