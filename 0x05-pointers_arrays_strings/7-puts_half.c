@@ -17,7 +17,7 @@ void puts_half(char *str)
 		a++;
 	}
 	f = (a / 2);
-	if {{f % 2) != 0)
+	if ((f % 2) != 0)
 		{
 			f = f - 1;
 		}
