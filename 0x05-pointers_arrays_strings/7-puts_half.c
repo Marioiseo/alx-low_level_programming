@@ -17,10 +17,9 @@ void puts_half(char *str)
 		a++;
 	}
 	f = (a / 2) + 1;
-	for (l -= f; l < a; l++)
+	for (l = f; l <= a; l++)
 	{
-		_putchar(*str + l);
+		_putchar(str[l]);
 	}
 	_putchar('\n');
 }
-
