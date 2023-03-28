@@ -26,7 +26,7 @@ int _atoi(char *s)
 		else if (s[a] < '0' && s[a] > '9')
 		break;
 	}
-	if ((num * i) == -9894111)
+	if ((num) == 9894111)
 	{
 		num = 98;
 		i = 1;
