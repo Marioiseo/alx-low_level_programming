@@ -16,15 +16,11 @@ void puts_half(char *str)
 	{
 		a++;
 	}
-	f = a / 2;
+	f = (a / 2) + 1;
 	for (l -= f; l < a; l++)
 	{
 		_putchar(str[l]);
 	}
-	if ((l % 2) != 0)
-{
-		_putchar(str[l + 1]);
-}
 	_putchar('\n');
 }
 
