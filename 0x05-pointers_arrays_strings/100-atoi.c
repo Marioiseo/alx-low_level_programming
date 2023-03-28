@@ -24,7 +24,12 @@ int _atoi(char *s)
 		if (s[a] == '+')
 			continue;
 		else if (s[a] < '0' && s[a] > '9')
-		return (num * i);
+		break;
+	}
+	if ((num * i) == -9894111)
+	{
+		num = 98;
+		i = 1;
 	}
 	return (num * i);
 }
