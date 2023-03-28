@@ -9,18 +9,12 @@ int main(void)
 {
 	int i;
 
-	char c[] = "a ,b ,c ,d , e, f, g, h, j, k, l, m, n ,q ,w ,z , A , S ,D ,F ,G ,H ,J";
-
-	char nums[] = "1, 2, 3, 4, 5, 6, 7, 8, 9, 0";
-
-	char b[] = "@, #, $, %, ^, &, *, (, ), _, !.";
+	char list[] = "1234567890qwertyuiopasdfghjklzxcvbnm!@#$%^&*()_- +=QWERTYUIOPASDFGHJKLZXCVBNM[]{};':\"<>,.?/\|";
 
 	srand(time(NULL));
-	for (i = 0; i <= 6; i++)
+	for (i = 0; i <= 15; i++)
 	{
-	printf("%c", nums[rand()] % 10 + 1);
-	printf("%c", b[rand()] % 10 + 1);
-	printf("%c", c[rand()] % 10 + 1);
+	printf("%c", list[rand() % (sizeof list -1)]);
 	}
 	return (0);
 }
