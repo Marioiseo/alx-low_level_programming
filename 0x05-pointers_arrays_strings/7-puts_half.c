@@ -19,8 +19,7 @@ void puts_half(char *str)
 	{
 		_putchar(str[lmiddle]);
 	}
-	if
-		((lmiddle % 2) != 0);
+	if ((lmiddle % 2) != 0)
 {
 	lmiddle = lmiddle + 1;
 		_putchar(str[lmiddle]);
