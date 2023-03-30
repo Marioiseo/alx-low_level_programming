@@ -18,7 +18,7 @@ void reverse_array(int *a, int n)
 	if (b != n)
 	{
 	c[b] = a[i];
-	b++
+	b++;
 	}
 	}
 }
