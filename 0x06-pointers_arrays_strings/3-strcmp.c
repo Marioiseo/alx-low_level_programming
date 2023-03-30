@@ -22,4 +22,4 @@ int _strcmp(char *s1, char *s2)
 	if (a2 > a1)
 	return (-15);
 	}
-}	
+}
