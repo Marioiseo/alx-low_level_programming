@@ -16,7 +16,7 @@ char *leet(char *s)
 
 	int j;
 
-	while (s[i] != NULL)
+	while (s[i] != '\0')
 	{
 		for (j = 0; j <= 4; j++)
 	{
