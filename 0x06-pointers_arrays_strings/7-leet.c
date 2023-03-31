@@ -10,7 +10,7 @@ char *leet(char *s)
 
 	char uwor[] = "A, E, O, T, L";
 
-	char numc[] = "4, 3, 0, 7, 1";
+	char numc[] = {52, 51, 48, 55, 49};
 
 	int i = 0;
 
@@ -19,10 +19,10 @@ char *leet(char *s)
 	while (s[i] != '\0')
 	{
 		for (j = 0; j <= 4; j++)
-		{
+	{
 		if (s[i] == worc[j] && s[i] == uwor[j])
-			s[i] = numc[j];
-		}
+		s[i] = numc[j];
+	}
 		i++;
 	}
 	return (s);
