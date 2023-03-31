@@ -6,9 +6,11 @@
 */
 char *leet(char *s)
 {
-	char worc[] = "a ,e ,o ,t ,l";
+	char worc[] = "a, e, o, t, l";
 
-	int numc[] = {4 ,3 ,0 ,7 ,1};
+	char uwor[] = "A, E, O, T, L";
+
+	int numc[] = {4, 3, 0, 7, 1};
 
 	int i;
 
@@ -18,7 +20,7 @@ char *leet(char *s)
 	{
 		for (j = 0; j <= 4; j++)
 		{
-		if (s[i] == worc[j] && s[i] == worc[j] - 32)
+		if (s[i] == worc[j] && s[i] == uwor[j])
 			s[i] = numc[j];
 		j++;
 		}
