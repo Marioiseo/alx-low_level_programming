@@ -19,25 +19,31 @@ char *cap_string(char *str)
 		}
 		}
 		if (str[i] == ' ' || str[i] == '\n' || str[i] == ',' || str[i] == '\t')
+		{
 			++i;
 		if (str[i] >= 'a' && str[i] <= 'z')
 		{
 			str[i] = str[i] - 32;
 			continue;
+		}
 		}
 		if (str[i] == '.' || str[i] == '?' || str[i] == '!' || str[i] == '"')
+		{
 			++i;
 		if (str[i] >= 'a' && str[i] <= 'z')
 		{
 			str[i] = str[i] - 32;
 			continue;
 		}
+		}
 		if (str[i] == '{' || str[i] == '}' || str[i] == '(' || str[i] == ')')
+		{
 			++i;
 		if (str[i] >= 'a' && str[i] <= 'z')
 		{
 			str[i] = str[i] - 32;
 			continue;
+		}
 		}
 		else
 		{
