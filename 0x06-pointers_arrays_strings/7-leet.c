@@ -22,7 +22,6 @@ char *leet(char *s)
 		{
 		if (s[i] == worc[j] && s[i] == uwor[j])
 			s[i] = numc[j];
-		j++;
 		}
 		i++;
 	}
