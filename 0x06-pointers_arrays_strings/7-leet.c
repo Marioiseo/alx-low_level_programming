@@ -12,18 +12,16 @@ char *leet(char *s)
 
 	int numc[] = {4, 3, 0, 7, 1};
 
-	int i = 0;
-
 	int j;
 
-	while (s[i] != '\0')
+	while (*s)
 	{
 		for (j = 0; j <= 4; j++)
 	{
 		if (s[i] == worc[j] || s[i] == uwor[j])
 		s[i] = numc[j];
 	}
-		i++;
+		s++;
 	}
 	return (s);
 }
