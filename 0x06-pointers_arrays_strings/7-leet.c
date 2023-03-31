@@ -20,7 +20,7 @@ char *leet(char *s)
 		{
 		if (s[i] == worc[j] && s[i] == worc[j] - 32)
 			s[i] = numc[j];
-		j++
+		j++;
 		}
 	}
 	return (s);
