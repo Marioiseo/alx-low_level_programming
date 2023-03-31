@@ -12,11 +12,11 @@ char *leet(char *s)
 
 	int numc[] = {4, 3, 0, 7, 1};
 
-	int i;
+	int i = 0;
 
 	int j = 0;
 
-	for (i = 0; s[i] != '\0'; i++)
+	while (s[i] != '\0')
 	{
 		for (j = 0; j <= 4; j++)
 		{
@@ -24,6 +24,7 @@ char *leet(char *s)
 			s[i] = numc[j];
 		j++;
 		}
+		i++;
 	}
 	return (s);
 }
