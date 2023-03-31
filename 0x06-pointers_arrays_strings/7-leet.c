@@ -6,7 +6,7 @@
 */
 char *leet(char *s)
 {
-	char worc[] = {a ,e ,o ,t ,l};
+	char worc[] = "a ,e ,o ,t ,l";
 
 	int numc[] = {4 ,3 ,0 ,7 ,1};
 
