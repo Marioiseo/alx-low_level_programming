@@ -17,10 +17,8 @@ char *leet(char *s)
 	while (s[i] != '\0')
 	{
 		for (j = 0; j <= 4; j++)
-	{
 		if (s[i] == worc[j] || s[i] == worc[j] - 32)
 		s[i] = numc[j];
-	}
 		i++;
 	}
 	return (s);
