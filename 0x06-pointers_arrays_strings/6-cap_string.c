@@ -21,10 +21,12 @@ char *cap_string(char *str)
 		for (j = 0; j < 13; j++)
 		{
 		if (str[i] == sep[j])
+		{
 			++i;
 		if (str[i] >= 'a' && str[i] <= 'z')
 			str[i] = str[i] - 32;
 		continue;
+		}
 		}
 		if (str[i] >= 'A' && str[i] <= 'Z')
 			str[i] = str[i] + 32;
