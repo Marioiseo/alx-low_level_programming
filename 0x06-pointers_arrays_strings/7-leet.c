@@ -18,7 +18,7 @@ char *leet(char *s)
 	{
 		for (j = 0; j <= 4; j++)
 		if (s[i] == worc[j] || s[i] == worc[j] - 32)
-		s[i] = numc[j];
+		s[i] = 48 + numc[j];
 		i++;
 	}
 	return (s);
