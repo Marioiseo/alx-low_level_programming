@@ -6,13 +6,13 @@
 */
 char *cap_string(char *str)
 {
-	char sep[14] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
+	char sep[14] = " \t\n,;.!?\"(){}";
 
-	int i = 0;
+	int i;
 
 	int j;
 
-	for ( ;str[i] != '\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
 		if (i == 0)
 		if (str[i] >= 'a' && str[i] <= 'z')
