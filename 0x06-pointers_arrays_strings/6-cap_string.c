@@ -27,11 +27,11 @@ char *cap_string(char *str)
 			str[i] = str[i] - 32;
 		continue;
 		}
+		}
 		if (str[i] == '\n')
 			++i;
 		if (str[i] >= 'a' && str[i] <= 'z')
-			stri[i] = str[i] - 32;
-		}
+			str[i] = str[i] - 32;
 	}
 	return (str);
 }
