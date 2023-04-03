@@ -31,11 +31,7 @@ char *_strstr(char *haystack, char *needle)
 				continue;
 			ptr = &haystack[i];
 			}
-			if (ptr == NULL)
-			{
-				break;
-			}
-			else
+			if (ptr != NULL)
 				return (ptr);
 		}
 	}
