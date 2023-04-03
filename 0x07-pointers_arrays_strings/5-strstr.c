@@ -30,9 +30,8 @@ char *_strstr(char *haystack, char *needle)
 				if (needle[j] < b)
 				continue;
 			ptr = &haystack[i];
-			}
-			if (ptr != NULL)
 				return (ptr);
+			}
 		}
 	}
 		return (NULL);
