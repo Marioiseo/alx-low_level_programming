@@ -15,5 +15,4 @@ void print_chessboard(char (*a)[8])
 	{'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'},
 	{'R', 'K', 'B', 'Q', 'K', 'B', 'K', 'R'},
 };
-a = chbo;
 }
