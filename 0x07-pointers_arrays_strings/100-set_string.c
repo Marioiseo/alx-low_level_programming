@@ -13,16 +13,16 @@ void set_sting(char **s, char *to)
 
 	while (*to != '\0')
 	{
-		*ptr = *to;
+		ptr = to;
 		to++;
 	}
 	while (**s != '\0')
 	{
-		*str = **s;
+		str = *s;
 		s++;
 	}
-	*ptr += *str;
-	*str += *to;
-	**s = *str;
-	*to = *ptr;
+	ptr += str;
+	str += to;
+	*s = str;
+	to = ptr;
 }
