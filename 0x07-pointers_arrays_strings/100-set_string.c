@@ -11,8 +11,6 @@ void set_sting(char **s, char *to)
 
 	char *str;
 
-	int i, j;
-
 	while (*to != '\0')
 	{
 		*ptr = *to;
@@ -24,7 +22,7 @@ void set_sting(char **s, char *to)
 		s++;
 	}
 	*ptr += *str;
-	*str += *ptr;
+	*str += *to;
 	**s = *str;
 	*to = *ptr;
 }
