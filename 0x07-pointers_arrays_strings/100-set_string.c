@@ -5,7 +5,7 @@
  * @to: the pointed one i guess
  * Return: void lovely void
 */
-void set_sting(char **s, char *to)
+void set_string(char **s, char *to)
 {
-		*s = to;
+	*s = to;
 }
