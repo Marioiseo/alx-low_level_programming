@@ -7,5 +7,5 @@
 */
 void set_sting(char **s, char *to)
 {
-	*s = to;
+		*s = to;
 }
