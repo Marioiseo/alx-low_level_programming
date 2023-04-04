@@ -7,22 +7,5 @@
 */
 void set_sting(char **s, char *to)
 {
-	char *ptr;
-
-	char *str;
-
-	while (*to != '\0')
-	{
-		ptr = to;
-		to++;
-	}
-	while (**s != '\0')
-	{
-		str = *s;
-		s++;
-	}
-	ptr += str;
-	str += to;
-	*s = str;
-	to = ptr;
+	*s = to;
 }
