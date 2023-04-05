@@ -4,12 +4,28 @@
  * @n: the square num
  * Return: int or -1 for errors
 */
+int sqrt_rec(int n, int x);
+
 int _sqrt_recursion(int n)
 {
-	if ((n / 2) == -1)
+	return(square(n, 1));
+}
+/**
+ * sqrt_rec - cant really calculate it without 2 params
+ * @n: the num is n for sure
+ * @x: x*x should get us into n eventually
+ * Return: int or -1;
+*/
+int sqrt_rec(int n, int x)
 	{
-		return (-1);
+	if (x * x == n)
+	{
+	return (x);
+	}
+	else if (x * x < n)
+	{
+	return (square(n, x + 1));
 	}
 	else
-		return (n / 2);
-}
+	return (-1);
+	}
