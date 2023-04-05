@@ -22,12 +22,9 @@ int is_palindrome(char *s)
 */
 int is_pall(char *s, int len, int i)
 {
-	if (i == len || i == (len - 1))
-	{
-		if (s[len] == s[i])
+	if (i == len || i == (len - 1) && s[i] == s[len])
 	{
 	return (1);
-	}
 	}
 	else if (s[len] == s[i])
 	{
