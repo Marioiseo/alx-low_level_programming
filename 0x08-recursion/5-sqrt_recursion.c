@@ -10,14 +10,6 @@ int _sqrt_recursion(int n)
 	{
 		return (-1);
 	}
-	if ((n / 2) == 1 )
-	{
-		return (1);
-	}
-	else if ((n / 2) > 1 && (n / 2) < 1)
-		return (n * 2);
-	else 
-	{
-	return (_sqrt_recursion(n / 2));
-	}
+	else
+		return (n / 2);
 }
