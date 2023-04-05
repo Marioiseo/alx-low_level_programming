@@ -21,6 +21,7 @@ int is_palindrome(char *s)
 */
 int is_pall(char *s, int len, int i)
 {
+	_putchar(len + 48);
 	if (i == len)
 	{
 	return (1);
