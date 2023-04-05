@@ -8,7 +8,7 @@ int sqrt_rec(int n, int x);
 
 int _sqrt_recursion(int n)
 {
-	return(sqrt_rec(n, 1));
+	return (sqrt_rec(n, 1));
 }
 /**
  * sqrt_rec - cant really calculate it without 2 params
