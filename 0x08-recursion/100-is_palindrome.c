@@ -11,17 +11,17 @@ int is_palindrome(char *s)
 {
 	int x = _strlen_recursion(s);
 
-	return (is_pall(s, x, 0));
+	return (is_pall(s, x - 1, 0));
 }
 /**
  * is_pall - my own function to invist
  * @s: the string
- * @len: the lenght
+ * @len: the end lenght
+ * @i: the start  length
  * Return: the 1 or 0 value
 */
 int is_pall(char *s, int len, int i)
 {
-	_putchar(len + 48);
 	if (i == len)
 	{
 	return (1);
