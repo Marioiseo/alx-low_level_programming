@@ -2,7 +2,6 @@
 /**
  * is_palindrome - this what means to be advanced lol
  * @s: string to check
- * @len: the length
  * Return: int either 1 or 0
 */
 int _strlen_recursion(char *s);
@@ -10,13 +9,14 @@ int is_pall(char *s, int len);
 
 int is_palindrome(char *s)
 {
-	int x = strlen_recursion(s);
+	int x = _strlen_recursion(s);
 
 	return (is_pall(s, x));
 }
 /**
  * is_pall - my own function to invist
- * @len: the lenght of the string
+ * @s: the string
+ * @len: the lenght
  * Return: the 1 or 0 value
 */
 int is_pall(char *s, int len)
