@@ -13,7 +13,7 @@ int is_pallindrome(char *s)
 	if (*s != '\0')
 	{
 	a = s;
-	return (is_pallindrome(s + 1);
+	return (is_pallindrome(s + 1));
 	b = s;
 	}
 	else if (a == b)
