@@ -5,13 +5,13 @@
  * Return: int either 1 or 0
 */
 int _strlen_recursion(char *s);
-int is_pall(char *s, int len);
+int is_pall(char *s, int len, int i);
 
 int is_palindrome(char *s)
 {
 	int x = _strlen_recursion(s);
 
-	return (is_pall(s, x));
+	return (is_pall(s, x, 0));
 }
 /**
  * is_pall - my own function to invist
@@ -19,18 +19,15 @@ int is_palindrome(char *s)
  * @len: the lenght
  * Return: the 1 or 0 value
 */
-int is_pall(char *s, int len)
+int is_pall(char *s, int len, int i)
 {
-	int i = 0;
-
 	if (i == len)
 	{
 	return (1);
 	}
 	else if (s[len] == s[i])
 	{
-		i++;
-	return (is_pall(s, len - 1));
+	return (is_pall(s, len - 1, i + 1));
 	}
 	else
 			return (0);
