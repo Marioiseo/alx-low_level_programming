@@ -10,7 +10,9 @@ int is_pall(char *s, int len);
 
 int is_palindrome(char *s)
 {
-	return (is_pall(s, 0));
+	int x = strlen_recursion(s);
+
+	return (is_pall(s, x));
 }
 /**
  * is_pall - my own function to invist
@@ -21,15 +23,14 @@ int is_pall(char *s, int len)
 {
 	int i = 0;
 
-	i = _strlen_recursion(s);
 	if (i == len)
 	{
 	return (1);
 	}
 	else if (s[len] == s[i])
 	{
-		i--;
-	return (is_pall(s, len + 1));
+		i++;
+	return (is_pall(s, len - 1));
 	}
 	else
 			return (0);
