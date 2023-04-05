@@ -22,7 +22,7 @@ int is_palindrome(char *s)
 */
 int is_pall(char *s, int len, int i)
 {
-	if (i == len || i == (len - 1) && s[i] == s[len])
+	if (s[i] == s[len] && i == len || i == (len - 1))
 	{
 	return (1);
 	}
