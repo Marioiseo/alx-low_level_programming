@@ -27,7 +27,7 @@ int is_pri(int n, int x)
 	{
 		return (1);
 	}
-	else if (n % i == 0)
+	else if (n % x == 0)
 	{
 		return (0);
 	}
