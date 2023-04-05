@@ -16,7 +16,7 @@ int is_pallindrome(char *s)
 	return (is_pallindrome(s + 1));
 	b = *s;
 	}
-	else if (a == b)
+	if (a == b)
 	{
 	return (1);
 	}
