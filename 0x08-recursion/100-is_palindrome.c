@@ -24,6 +24,7 @@ int is_pall(char *s, int len, int i)
 {
 	if (i == len || i == (len - 1))
 	{
+		if (s[len] == s[i])
 	return (1);
 	}
 	else if (s[len] == s[i])
