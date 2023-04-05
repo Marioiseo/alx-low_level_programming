@@ -12,9 +12,9 @@ int is_pallindrome(char *s)
 
 	if (*s != '\0')
 	{
-	a = s
+	a = s;
 	return (is_pallindrome(s + 1);
-	b = s
+	b = s;
 	}
 	else if (a == b)
 	{
