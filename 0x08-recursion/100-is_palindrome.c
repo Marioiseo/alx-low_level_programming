@@ -1,16 +1,22 @@
 #include "main.h"
 /**
- * is_pallindrome - this what means to be advanced lol
+ * is_palindrome - this what means to be advanced lol
  * @s: string to check
+ * @len: the length
  * Return: int either 1 or 0
 */
 int _strlen_recursion(char *s);
 int is_pall(char *s, int len);
 
-int is_pallindrome(char *s)
+int is_palindrome(char *s)
 {
 	return (is_pall(s, 0));
 }
+/**
+ * is_pall - my own function to invist
+ * @len: the lenght of the string
+ * Return: the 1 or 0 value
+*/
 int is_pall(char *s, int len)
 {
 	int i = 0;
