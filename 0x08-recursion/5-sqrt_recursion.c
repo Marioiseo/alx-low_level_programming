@@ -2,6 +2,7 @@
 /**
  * _sqrt_recursion - i guess this one isnt possible
  * @n: the square num
+ * @x: x is my param to get into n
  * Return: int or -1 for errors
 */
 int sqrt_rec(int n, int x);
