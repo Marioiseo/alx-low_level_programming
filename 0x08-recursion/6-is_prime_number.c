@@ -19,7 +19,7 @@ int is_prime_number(int n)
 */
 int is_pri(int n, int x)
 {
-	if (n == 0 && n == 1)
+	if (n == 0 || n == 1)
 	{
 		return (0);
 	}
