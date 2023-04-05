@@ -7,8 +7,11 @@
 int _sqrt_recursion(int n)
 {
 	int k = 1;
-	for (k * k == n)
+
+	if (k * k == n)
+	{
 		return (1);
+	}
 	else 
 	{
 	return (_sqrt_recursion(n - 1));
