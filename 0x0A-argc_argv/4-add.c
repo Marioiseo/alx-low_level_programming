@@ -31,10 +31,11 @@ int main(int argc, char *argv[])
 	sum += atoi(argv[i]);
 	}
 	printf("%i\n", sum);
+	return (0);
 	}
 	else
 	{
 	printf("0\n");
-	}
 	return (0);
+	}
 }
