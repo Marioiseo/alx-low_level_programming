@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
  * main - first argument to take is the name of file as default
  * @argc: the counter of argv
@@ -8,6 +10,6 @@
 int main(int argc, char *argv[])
 {
 	(void)argc;
-	_putchar(**argv);
+	printf("%s", argv[0]);
 	return (0);
 }
