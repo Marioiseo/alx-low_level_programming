@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 	{
 		test = strtol(argv[i], &ptpt, 10);
 
-		if (ptpt || test < 0)
+		if (ptpt || test < 0 || argv[i] == ptpt)
 		{
 		printf("Error\n");
 		return (1);
