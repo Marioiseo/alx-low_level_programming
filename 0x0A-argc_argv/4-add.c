@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 		}
 		else if (atoi(argv[i]) == 0)
 				{
-				continue;
+				break;
 				}
 	sum += atoi(argv[i]);
 	}
