@@ -1,5 +1,5 @@
 #include <stdio.h>
-/** 
+/**
  * main - loving this project lol
  * @argc: how many arguments can you provide ^^
  * @argv: lets see you input all strings you can
