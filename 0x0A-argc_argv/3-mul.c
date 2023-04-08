@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - now we talking its a true task
  * @argc: you know it
@@ -7,9 +8,12 @@
  */
 int main(int argc, char *argv[])
 {
+	int multi;
+
 	if (argc == 3)
 	{
-	return (argv[1] * argv[argc - 1]);
+		multi = atoi(argv[1]) * atoi(argv[2]);
+	return (multi);
 	}
 	else
 	{
