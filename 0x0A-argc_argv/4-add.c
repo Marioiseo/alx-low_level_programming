@@ -13,11 +13,17 @@ int main(int argc, char *argv[])
 
 	int sum = 0;
 
+	long test;
+
+	char *ptpt;
+
 	if (argc > 1)
 	{
 	for (i = 1; i < argc; i++)
 	{
-		if (atoi(argv[i]) < 0 || atoi(argv[i]) == 0)
+		test =strtol(argv[i], &ptpt, 10);
+	(void)test;
+		if (argv[i] == ptpt)
 		{
 		printf("Error\n");
 		return (1);
