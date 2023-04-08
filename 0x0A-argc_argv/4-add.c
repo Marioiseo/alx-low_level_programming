@@ -21,8 +21,8 @@ int main(int argc, char *argv[])
 	{
 	for (i = 1; i < argc; i++)
 	{
-		test =strtol(argv[i], &ptpt, 10);
-	(void)test;
+		test = strtol(argv[i], &ptpt, 10);
+
 		if (argv[i] == ptpt || test < 0)
 		{
 		printf("Error\n");
