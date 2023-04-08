@@ -13,11 +13,12 @@ int main(int argc, char *argv[])
 	if (argc == 3)
 	{
 		multi = atoi(argv[1]) * atoi(argv[2]);
-	return (multi);
+		printf("%i\n", multi);
 	}
 	else
 	{
-		printf("Error");
+		printf("Error\n");
 		return (1);
 	}
+	return (0);
 }
