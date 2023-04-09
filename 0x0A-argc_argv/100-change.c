@@ -29,11 +29,11 @@ int main(int argc, char *argv[])
 		}
 		}
 		printf("%i\n", b);
-		return (0);
 	}
 	else
 	{
 		printf("Error\n");
 	return (1);
 	}
+	return (0);
 }
