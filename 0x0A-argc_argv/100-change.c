@@ -10,12 +10,11 @@ int main(int argc, char *argv[])
 {
 	int a, b = 0;
 
-	int amount = atoi(argv[1]);
-
 	int change[] = {25, 10, 5, 2, 1};
 
 	if (argc == 2)
 	{
+		int amount = atoi(argv[1]);
 		for (a = 0; a < 5; a++)
 		{
 		if (amount >= change[a])
