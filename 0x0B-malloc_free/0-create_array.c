@@ -7,12 +7,12 @@
  * Return: string nor null
  */
 char *create_array(unsigned int size, char c)
-{	
+{
 	char *pt = (char *) malloc(size);
 
 	unsigned int i;
 
-	if (pt == NULL)
+	if (pt == NULL && size == 0)
 	{
 		return (NULL);
 	}
