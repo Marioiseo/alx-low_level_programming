@@ -19,19 +19,19 @@ char *str_concat(char *s1, char *s2)
 	while (s2[b])
 	b++;
 	c = a + b;
+	if (s1 == '\0')
+		return (s2);
+	if (s2 == '\0')
+		return (s1);
 	pt = (char *) malloc(c + 1);
 	if (pt != NULL)
 	{
 	for (i = 0; i <= a; i++)
 	{
-		if (*s1 == '\0')
-			break;
 	pt[i] = s1[i];
 	}
 	for (i = a; i <= c; i++)
 	{
-		if (*s2 == '\0')
-			break;
 	pt[i] = s2[d];
 		d++;
 	}
