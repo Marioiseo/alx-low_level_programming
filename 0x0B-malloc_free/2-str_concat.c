@@ -20,9 +20,10 @@ char *str_concat(char *s1, char *s2)
 	b++;
 	c = a + b;
 	pt = (char *) malloc(c);
+	if ((s1 == NULL && s2 == NULL) || pt == NULL)
+		return (NULL);
 	for (i = 0; i <= a; i++)
 	{
-
 	pt[i] = s1[i];
 	}
 	for (i = a; i < c; i++)
