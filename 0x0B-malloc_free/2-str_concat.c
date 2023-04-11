@@ -47,7 +47,7 @@ char *str_concat(char *s1, char *s2)
 	pt[i] = s2[d];
 		d++;
 	}
+	}
 	return (pt);
 	free(pt);
-}
 }
