@@ -38,7 +38,7 @@ char *str_concat(char *s1, char *s2)
 	}
 	return (pt);
 	}
+	free(pt);
 	else
 		return (NULL);
-	free(pt);
 }
