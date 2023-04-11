@@ -24,6 +24,7 @@ char *_strdup(char *str)
 		for (i = 0; i < j; i++);
 	{
 		pt[i] = str[i];
+		_putchar(pt[i]);
 	}
 	return (pt);
 		}
