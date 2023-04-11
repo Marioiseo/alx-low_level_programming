@@ -27,7 +27,7 @@ char *str_concat(char *s1, char *s2)
 	for (i = a; i < c; i++)
 	{
 		if (d <= b)
-	pt[i] = s2[d]
+	pt[i] = s2[d];
 		d++;
 	}
 }
