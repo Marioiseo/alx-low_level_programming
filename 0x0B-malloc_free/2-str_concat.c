@@ -21,14 +21,14 @@ char *str_concat(char *s1, char *s2)
 	c = a + b;
 	pt = (char *) malloc(c + 1);
 	if (pt == NULL)
-		return (pt);
+		return (NULL);
 	for (i = 0; i <= a; i++)
 	{
 		if (*s1 == '\0')
 			break;
 	pt[i] = s1[i];
 	}
-	for (i = a; i < c; i++)
+	for (i = a; i <= c; i++)
 	{
 		if (*s2 == '\0')
 			break;
