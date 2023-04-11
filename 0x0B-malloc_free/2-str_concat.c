@@ -19,13 +19,15 @@ char *str_concat(char *s1, char *s2)
 	while (s2[b])
 	b++;
 	c = a + b;
-	pt = (char *) malloc(c);
+	pt = (char *) malloc(c + 1);
 	if ((s1 == NULL && s2 == NULL) || pt == NULL)
 		return (NULL);
+	if (a > 0)
 	for (i = 0; i <= a; i++)
 	{
 	pt[i] = s1[i];
 	}
+	if (b > 0)
 	for (i = a; i < c; i++)
 	{
 		if (d <= b)
