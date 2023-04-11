@@ -20,17 +20,18 @@ char *str_concat(char *s1, char *s2)
 	b++;
 	c = a + b;
 	pt = (char *) malloc(c + 1);
-	if ((s1 == NULL && s2 == NULL) || pt == NULL)
+	if ( pt == NULL)
 		return (NULL);
-	if (a > 0)
 	for (i = 0; i <= a; i++)
 	{
+		if (*s1 == NULL)
+			break;
 	pt[i] = s1[i];
 	}
-	if (b > 0)
 	for (i = a; i < c; i++)
 	{
-		if (d <= b)
+		if (*s2 == NULL)
+			break;
 	pt[i] = s2[d];
 		d++;
 	}
