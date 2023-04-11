@@ -39,6 +39,7 @@ char *str_concat(char *s1, char *s2)
 		j++;
 	}
 	}
+	pt[i] = '\0';
 	return (pt);
 	free(pt);
 }
