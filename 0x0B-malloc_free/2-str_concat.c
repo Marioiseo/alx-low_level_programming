@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include "main.h"
+#include <string.h>
 /**
  * str_concat - manuality is power
  * @s1: first half
@@ -8,38 +9,22 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	int a = 0, b = 0, d = 0;
-
-	int i, c;
+	int i, j = 0;
 
 	char *pt;
 
-	while (s1[a])
-	a++;
-	while (s2[b])
-	b++;
-	c = a + b;
-	if (*s2 == '\0' && *s1 == '\0')
-	{
-		s1 = "";
-		s2 = "";
-	}
-	if (*s1 == '\0')
-		s1 = "";
-	if (*s2 == '\0')
-		s2 = "";
-
-	pt = (char *) malloc(c + 1);
+	int a = strlen(s1), b = strlen(s2);
+	pt = (char *) malloc(a + b + 1);
 	if (pt != NULL)
 	{
 	for (i = 0; i <= a; i++)
 	{
 	pt[i] = s1[i];
 	}
-	for (i = a; i <= c; i++)
+	for (i = a; i <= (a + b); i++)
 	{
-	pt[i] = s2[d];
-		d++;
+	pt[i] = s2[j];
+		j++;
 	}
 	return (pt);
 	free(pt);
