@@ -14,6 +14,7 @@ char *_strdup(char *str)
 	while (str[j] != '\0')
 		j++;
 
+	_putchar(j + 48);
 	pt = (char *) malloc(j);
 		if (pt == NULL)
 		{
