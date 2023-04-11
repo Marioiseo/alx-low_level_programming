@@ -7,29 +7,29 @@
  */
 char *_strdup(char *str)
 {
-	int i;
+	int i, b = 0;
 
 	int j = 0;
 
 	char *pt;
 
-	while (*str)
+	if (str == NULL)
+		return (NULL);
+
+	for (j = 0; str[j] != NULL; j++)
 	{
-		j++;
-		str++;
+	b++;
 	}
-	_putchar(j + '0');
-	pt = (char *) malloc(j);
+	pt = (char *) malloc(b);
 		if (pt == NULL)
 		{
 			return (NULL);
 		}
 		else
 		{
-		for (i = 0; i < j; i++);
+		for (i = 0; i < b; i++);
 	{
 		pt[i] = str[i];
-		_putchar(pt[i]);
 	}
 	return (pt);
 		}
