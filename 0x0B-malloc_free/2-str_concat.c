@@ -11,20 +11,19 @@ char *str_concat(char *s1, char *s2)
 {
 	int i, j = 0;
 	char *pt;
-	int a = strlen(s1), b = strlen(s2);
 
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
-	pt = (char *) malloc(a + b + 1);
+	pt = (char *) malloc(strlen(s1) + strlen(s2) + 1);
 	if (pt == NULL)
 		return (0);
-	for (i = 0; i <= a; i++)
+	for (i = 0; i <= strlen(s1); i++)
 	{
 	pt[i] = s1[i];
 	}
-	for (i = a; i <= (a + b); i++)
+	for (i = a; i <= (strlen(s1) + strlen(s2)); i++)
 	{
 	pt[i] = s2[j];
 		j++;
