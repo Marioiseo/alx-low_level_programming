@@ -8,7 +8,7 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	char *pt = (char*) malloc(size);
+	char *pt = (char *) malloc(size);
 
 	unsigned int i;
 
@@ -19,5 +19,5 @@ char *create_array(unsigned int size, char c)
 	pt[i] = c;
 	}
 	return (pt);
-	free (pt);
+	free(pt);
 }
