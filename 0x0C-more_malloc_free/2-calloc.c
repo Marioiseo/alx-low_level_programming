@@ -8,8 +8,8 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	int *pt;
-	unsigned int i;
+	void *pt;
+	unsigned int i = 0;
 
 	if (size == 0 || nmemb == 0)
 		return (NULL);
@@ -19,11 +19,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		return (NULL);
 	}
-	while (pt[i])
-	{
-		pt[i] = 0;
-		i++;
-	}
-
+	while (((int*)pt)[i])
+		((int*)pt)[i] = 0;
 	return (pt);
 }
