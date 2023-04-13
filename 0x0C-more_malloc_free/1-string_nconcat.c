@@ -24,11 +24,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	for (i = 0; i < strlen(s1); i++)
 	{
+		if (s1[i] == '\0')
+			exit (NULL);
 		pt[i] = s1[i];
 	}
 	for (j = 0 ; j < n; i++, j++)
 	{
-		if (s2[j] != '\0')
+		if (s2[j] == '\0')
+			exit (NULL);
 		pt[i] = s2[j];
 	}
 	pt[i] = '\0';
