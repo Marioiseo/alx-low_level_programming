@@ -13,6 +13,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	char *pt; 
 	unsigned int i, j;
 
+	if (s1 == NULL && s2 == NULL)
+		return (NULL);
 	if (s1 == NULL)
 		return (s2);
 	if (s2 == NULL)
