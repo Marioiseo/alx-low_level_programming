@@ -10,5 +10,9 @@ void *malloc_checked(unsigned int b)
 	void *pt;
 
 	pt = malloc(b);
+
+	if (pt == NULL)
+		return (98);
+
 	return (pt);
 }
