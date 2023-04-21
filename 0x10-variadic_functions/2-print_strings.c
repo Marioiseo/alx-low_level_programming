@@ -9,15 +9,16 @@
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-	int i;
+	unsigned int i;
 	va_list ptr;
+	char *s = "";
 
 	va_start(ptr, n);
 	if (n)
 	{
 	for (i = 0; i < n; i++)
 	{
-		if (ptr)
+		if (s != va_arg(ptr, char *))
 		{
 			if (i < n - 1)
 			{
