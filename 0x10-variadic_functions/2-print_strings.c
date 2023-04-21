@@ -22,7 +22,9 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			if (i < n - 1)
 			{
 			if (separator)
-				printf("%s%s",(s =  va_arg(ptr, char *)) ? s : "(nil)", separator);
+				printf("%s%s", (s =  va_arg(ptr, char *)) ? s : "(nil)", separator);
+			else
+				printf("%s", (s = Va_Arg(ptr, char *)) ? s : "(nil)");
 			}
 			else
 				printf("%s", (s = va_arg(ptr, char *)) ? s : "(nil)");
