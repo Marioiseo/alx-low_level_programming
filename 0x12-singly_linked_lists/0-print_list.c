@@ -11,7 +11,7 @@ size_t print_list(const list_t *h)
 
 	while (h)
 	{
-		printf("[%ld]%s\n", strlen(h->str), h->str ? h->str : "(nill)");
+		printf("[%ld] %s\n", strlen(h->str), h->str ? h->str : "(nill)");
 		h = h->next;
 		i++;
 	}
