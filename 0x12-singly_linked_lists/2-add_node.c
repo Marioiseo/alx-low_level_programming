@@ -5,7 +5,7 @@
  * @str: the new string
  * Return: the new list
  */
-list_t add_node(list_t **head, const char *str)
+list_t *add_node(list_t **head, const char *str)
 {
 	list_t *newhead;
 
