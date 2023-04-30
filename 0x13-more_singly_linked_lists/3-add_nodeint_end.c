@@ -3,7 +3,7 @@
  * add_nodeint_end - att node at the end
  * @head: the head
  * @n: the new tail
- * Return : the new list
+ * Return: the new list
  */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
