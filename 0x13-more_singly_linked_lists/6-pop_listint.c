@@ -11,7 +11,10 @@ int pop_listint(listint_t **head)
 
 	if (!head)
 		return (0);
+
 	replace = *head;
 	i = replace->n;
+	head = replace->next;
+	free(replace);
 	return (i);
 }
