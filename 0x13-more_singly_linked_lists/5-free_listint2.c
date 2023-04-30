@@ -14,6 +14,7 @@ void free_listint2(listint_t **head)
 	current = newhead->next;
 	newhead->next = NULL;
 	*head = newhead;
+	free(newhead);
 	while (current)
 	{
 		next = current->next;
