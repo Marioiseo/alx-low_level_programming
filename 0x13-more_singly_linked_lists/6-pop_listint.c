@@ -7,13 +7,11 @@
 int pop_listint(listint_t **head)
 {
 	int i;
-	listint_t *replace, *newhead;
+	listint_t *replace;
 
-	(void)newhead;
 	if (!head)
 		return (0);
 	replace = *head;
 	i = replace->n;
-	newhead = replace->next;
 	return (i);
 }
