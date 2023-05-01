@@ -13,6 +13,13 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	node = *head;
 	if (!head)
 		return (-1);
+	if (!index)
+	{
+	*head = (*head)->next;
+	free(node);
+	free(deleted);
+	return (1);
+	}
 	while (node)
 	{
 		if (i == index - 1)
