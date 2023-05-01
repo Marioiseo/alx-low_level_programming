@@ -11,14 +11,12 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	listint_t *node, *deleted;
 
 	node = *head;
-	deleted = malloc(sizeof(listint_t));
 	if (!head)
 		return (-1);
 	if (!index)
 	{
 	*head = (*head)->next;
 	free(node);
-	free(deleted);
 	return (1);
 	}
 	while (node)
