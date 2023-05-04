@@ -18,10 +18,12 @@ unsigned int binary_to_uint(const char *b)
 		{
 		if (b[i] == '1')
 		{
-			sum+= power(2 , j);
+			sum += power(2, j);
 		}
-		if (b[i] != '1' && b[i] != '0')
+		else if (b[i] != '1' && b[i] != '0')
+		{
 			return (0);
+		}
 		else
 			continue;
 		}
@@ -31,12 +33,14 @@ unsigned int binary_to_uint(const char *b)
  * power - my recursive func to get power
  * @a: the num
  * @b: the power of num
- * Return : the sum of it
+ * Return: the sum of it
  */
 unsigned int power(int a, int b)
 {
 	if (b == 1)
+	{
 		return (1);
+	}
 	else
-	return (a * power(a , b - 1));
+	return (a * power(a, b - 1));
 }
