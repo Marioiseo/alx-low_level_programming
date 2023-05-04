@@ -7,7 +7,7 @@
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
-	unsigned int i = 0;
+	unsigned int i = 0 , j;
 	char arr[32];
 
 	if (!n)
@@ -21,14 +21,13 @@ int get_bit(unsigned long int n, unsigned int index)
 		n /= 2;
 		i++;
 	}while (n != 0);
-
-	for (i = 0; i < strlen(arr); i++)
+	for (j = 0; j < i; j++)
 	{
-		if (i == index)
+		if (j == index)
 		{
-			if (arr[i] == '0')
+			if (arr[j] == '0')
 		       return (0);
-			if (arr[i] == '1')
+			if (arr[j] == '1')
 			return (1);
 		}
 	}
