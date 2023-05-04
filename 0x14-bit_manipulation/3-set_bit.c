@@ -5,7 +5,7 @@
  * @index: the index
  * Return: 1 nor 0;
  */
-int get_bit(unsigned long int *n, unsigned int index)
+int set_bit(unsigned long int *n, unsigned int index)
 {
 	unsigned int i = 0, j;
 	char arr[256];
