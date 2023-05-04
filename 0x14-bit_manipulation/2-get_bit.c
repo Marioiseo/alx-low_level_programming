@@ -20,7 +20,7 @@ int get_bit(unsigned long int n, unsigned int index)
 		n /= 2;
 		i++;
 	} while (n != 0);
-	for (j = 0; j < i; j++)
+	for (j = 0; j < i + 1; j++)
 	{
 	if (j == index)
 			{
