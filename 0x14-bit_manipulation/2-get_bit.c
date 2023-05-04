@@ -8,7 +8,7 @@
 int get_bit(unsigned long int n, unsigned int index)
 {
 	unsigned int i = 0 , j;
-	char arr[32];
+	char arr[256];
 
 	if (!n)
 		return (-1);
