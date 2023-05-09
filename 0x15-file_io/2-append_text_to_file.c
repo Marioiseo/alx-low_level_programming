@@ -5,7 +5,7 @@
  * @text_content: same .-.
  * Return: either 1 for success nor -1 for failures
  */
-int appent_text_to_file(const char *filename, char *text_content)
+int append_text_to_file(const char *filename, char *text_content)
 {
 	int fp;
 	int i;
@@ -16,7 +16,7 @@ int appent_text_to_file(const char *filename, char *text_content)
 	if (fp == -1)
 		return (-1);
 	i = strlen(text_content);
-	if (i == 0)
+	if (!i)
 		return (1);
 	write(fp, text_content, i);
 	close(fp);
