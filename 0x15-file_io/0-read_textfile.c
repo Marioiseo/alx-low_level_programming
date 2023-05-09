@@ -11,10 +11,11 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	char buff[1024];
 	ssize_t i = 0;
 
+	if (!filename || !letters)
+		return (0);
 	fp = fopen(filename, "r");
-	fgets(buff, letters, fp);
-	i = strlen(buff);
-	printf("%s", buff);
+	i = read(0, buff, letters);
+	i = write(1, buff, i);
 	fclose(fp);
 	return (i);
 }
