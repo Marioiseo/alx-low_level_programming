@@ -15,5 +15,6 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	fgets(buff, letters, fp);
 	i = strlen(buff);
 	printf("%s", buff);
+	fclose(fp);
 	return (i);
 }
